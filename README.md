@@ -18,3 +18,8 @@ to specify  how to install kubectl, aws authenticator, and aws cli
 to build EKS cluster. 
 Run terraform init/apply. It takes about 12 minutes to complete. 
 4. Create login.sh file to automatically run basic kubectl command.
+
+
+To install helm create helm.sh file
+To manually create helm chart we can use helm create command in VSC.  
+Which we will have customized StatefullSet, HPA, Ingress, Service. 
