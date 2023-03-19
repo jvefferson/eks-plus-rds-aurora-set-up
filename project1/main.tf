@@ -22,7 +22,7 @@ data "aws_eks_cluster_auth" "cluster" {
 
 module "my-cluster" {
         source = "terraform-aws-modules/eks/aws"
-        version = "12.0.0"
+        version = "15.0.0"
         cluster_name = var.cluster_name
         cluster_version = var.cluster_version
         subnets = [
