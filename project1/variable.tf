@@ -7,7 +7,7 @@ variable "cluster_name" {
 	description = "Cluster name used"
 }
 variable "cluster_version" {
-	default = "1.21"
+	default = "1.22"
 	description = "Cluster name used"
 }
 variable "instance_type" {
