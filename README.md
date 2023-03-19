@@ -15,4 +15,6 @@ not suggest you to upgrade terraform. Because you need also upgrade state file.
 2. Prepare localscript.sh file inside of terraform project where we need 
 to specify  how to install kubectl, aws authenticator, and aws cli
 3. By using terraform resources, outputs, variables create the infrustructure 
-to build EKS cluster. It takes about 12 minutes to complete. 
+to build EKS cluster. 
+Run terraform init/apply. It takes about 12 minutes to complete. 
+4. Create login.sh file to automatically run basic kubectl command.
