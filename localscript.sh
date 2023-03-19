@@ -7,6 +7,6 @@ source ~/.bash_profile
 
 # RUN
 # bash localscript.sh
-# tfenv install 0.14.1
-# tfenv use 0.14.1
+# tfenv install 1.1.1
+# tfenv use 1.1.1
 # terraform version
