@@ -6,7 +6,8 @@ sudo ln -s ~/.tfenv/bin/* /usr/local/bin
 source ~/.bash_profile
 
 # RUN
-# bash localscript.sh
 # tfenv install 1.1.1 
 # tfenv use 1.1.1 
 # terraform version
+
+# bash localscript.sh
