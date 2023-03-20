@@ -27,4 +27,5 @@ https://registry.terraform.io/modules/terraform-aws-modules/rds-aurora/aws/lates
 
 4. To install helm create helm.sh file
 To manually create helm chart we can use helm create command  
-with StatefullSet, HPA, Ingress, and Service.
+with StatefullSet, HPA, Ingress, and Service yaml files.
+Run helm install command.
