@@ -1,15 +1,16 @@
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v3
 
       - name: Build Image
-        run: docker build -t jvefferson/nginx:v2
+        run: docker build -t jvefferson/nginx:v1
 
       - name: List Images
         run: docker images
