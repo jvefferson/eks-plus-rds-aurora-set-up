@@ -38,7 +38,7 @@ module "eks" {
       max_size     = 5
       desired_size = 2
 
-      use_mixed_instances_policy = true
+      use_mixed_instances_policy = false
       mixed_instances_policy = {
         instances_distribution = {
           on_demand_base_capacity                  = 0
