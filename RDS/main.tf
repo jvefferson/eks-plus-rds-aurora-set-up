@@ -3,8 +3,13 @@ module "cluster" {
 
   name           = "rds-aurora"
   engine         = "aurora-mysql"
+<<<<<<< HEAD
   engine_version = "5.7"
   instance_class = "db.t2.medium"
+=======
+  engine_version = "11.12"
+  instance_class = "db.t2.small"
+>>>>>>> origin/main
   instances = {
     one = {}
     2 = {
@@ -22,8 +27,13 @@ module "cluster" {
   apply_immediately   = true
   monitoring_interval = 10
 
+<<<<<<< HEAD
   db_parameter_group_name         = "default.aurora-mysql5.7"
   db_cluster_parameter_group_name = "default.aurora-mysql5.7"
+=======
+  db_parameter_group_name         = "default"
+  db_cluster_parameter_group_name = "default"
+>>>>>>> origin/main
 
   enabled_cloudwatch_logs_exports = ["general"]
 
