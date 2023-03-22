@@ -22,7 +22,7 @@ provider "aws" {
 }
 Note: Make sure to replace the region with the region of your choice.
 
-8. I used the module provided in this link https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/15.0.0 by choosing version 15 because it is the most stable version from my experience. 
+8. I used the module provided in this link https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/19.10.1
 9. After that, you can run terraform init to download the necessary modules.
 10. Next, run terraform plan to see what changes will be made.
 11. Finally, run terraform apply to apply the changes and create the EKS cluster. Note that it can take up to 12 minutes to set up the cluster. 
