@@ -78,19 +78,19 @@ module "eks" {
   }
 
   # Fargate Profile(s)
-  fargate_profiles = {
-    default = {
-      name = "default"
-      selectors = [
-        {
-          namespace = "default"
-        }
-      ]
-    }
-  }
+#   fargate_profiles = {
+#     default = {
+#       name = "default"
+#       selectors = [
+#         {
+#           namespace = "default"
+#         }
+#       ]
+#     }
+#   }
 
   # aws-auth configmap
-  manage_aws_auth_configmap = true
+  manage_aws_auth_configmap = false
 
   aws_auth_roles = [
     {
