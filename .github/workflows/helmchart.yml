@@ -20,6 +20,6 @@ jobs:
         kubeconfig: ${{ secrets.KUBECONFIG }}
 
     - name: Install Helm chart
-      uses: helm/install@v1
+      uses: helm install myapp .
       with:
         chart-path: ./path/to/chart
