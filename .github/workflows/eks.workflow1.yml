@@ -51,4 +51,4 @@ jobs:
       - name: Apply
         working-directory: EKS
         run: |
-          terraform destroy --auto-approve
+          terraform apply --auto-approve
