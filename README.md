@@ -1,4 +1,5 @@
-# take-home-project
+# This is just a small demo in one repo. Ideally, we would need 2 different repos. One for EKS and the other one for Helm Chart and RDS. And the reason we need to run EKS cluster first to generate kube.config file and then install helm chart based on that. And our last step would be running RDS cluster. Also we need more variables to make our code more dynamic, but I skipped that part as well to speed up the process.
+
 ```
 I. Here are the step-by-step instructions to use the EKS Terraform module:
 
